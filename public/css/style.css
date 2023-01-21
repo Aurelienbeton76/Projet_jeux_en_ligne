@@ -1,0 +1,92 @@
+
+
+
+/** reset **/
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* True Styling */
+
+
+header {
+  background: rgb(88, 87, 87)  url(../images/mario.jpg) ;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  margin: 0;
+  font-family: fantasy;
+  font-size: 5rem;
+  padding: 10px;
+  text-align: center;
+  color: white!important;
+  background: rgba(100,100,100,0.8);
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.5), 0px 0px 10px rgba(0,0,0,0.5), 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+header nav{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+}
+
+header nav ul {
+  background: rgba(255,255,255,0.8);
+  color: gb(243, 205, 18);
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  height: 50px;
+}
+
+header nav ul li {
+  text-align:center;
+  padding: 15px;
+  transition: all ease .5s;
+  font-size: 1rem;
+}
+
+header nav ul li:hover {
+  font-size: 1.2rem;
+  text-shadow: 0px 10px 4px rgba(0,0,0,0.5);
+}
+
+h3 {
+  text-align: center;
+  line-height: 3rem;
+}
+
+
+.error-message{
+  color:rgb(161, 14, 14);
+  width: 100vw;
+  text-align: center;
+}
+
+.dead-link{
+  display: block;
+  width: 25vw;
+  height: auto;
+  margin: 5vh auto;
+}
+
+.content{
+  text-align: center;
+}
+
+form{
+  width: 33vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}

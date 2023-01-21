@@ -1,0 +1,14 @@
+[
+    {
+        "firstname": "Tony",
+        "lastname": "STARK",
+        "login": "tstark",
+        "pass": "$2b$10$.GZmv9i/Ry04HcCyVtmkCOV9NTYqjR4jFZDOhyIGxYEwt3ZRBhqj6"
+    },
+    {
+        "firstname": "Bruce",
+        "lastname": "BANNER",
+        "login": "bbanner",
+        "pass": "$2b$10$.GZmv9i/Ry04HcCyVtmkCOV9NTYqjR4jFZDOhyIGxYEwt3ZRBhqj6"
+    }
+]

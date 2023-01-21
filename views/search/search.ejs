@@ -1,0 +1,24 @@
+<%- include('../partials/header') %>
+
+<h3>Recherche</h3>
+<div class="content">
+    <!-- En methode Get, les données du formulaire sont passé dans l'url en query, avec pour chaque champ : name_du_champs = valeur de l'utilisateur
+    Dans ce cas précis l'action sur le bouton submmit reidirgera vers /search/result?recherche=ce_que_saisi_l_utilisateur
+    -->
+    <!-- Au click sur l'input de type submit on envoie une requête /search/result en passant dans l'url (si on est methode GET) les données du formulaire -->
+    <form id="form" action="/search/result?recherche=kldsflkjq&nbParties=2" method="GET">
+        <input type="text" id="recherche" name="recherche" placeholder="Rechercher un jeu"/>
+        <input type="submit" value="Rechercher"/>
+    </form>
+
+    <script type="text/javascript">
+        // document.querySelector('#form').addEventListener('submit', (e)=> {
+        //     //On annule ce qui doit ce passer normalement sur l'evenement
+        //     e.preventDefault();
+        //     let input = document.querySelector('#recherche');
+        //     input.value = input.value.toUpperCase();
+        //     document.querySelector('#form').submit();
+        // })
+
+    </script>
+</div>

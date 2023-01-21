@@ -1,0 +1,9 @@
+<%- include('../partials/header') %>
+
+<h3>Resultats</h3>
+
+<ul>
+<% for(const jeu of jeuxCorrespondants) { %>
+    <li><%=jeu.title%></li>
+<%}%>
+</ul>

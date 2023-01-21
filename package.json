@@ -1,0 +1,23 @@
+{
+  "name": "projet_jeux_en_ligne",
+  "version": "1.0.0",
+  "description": "Bon, on a quelques jeux qui traînent, c'est cool ! Mais c'est le bazar !",
+  "main": "gamehub.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aurelienbeton76/Projet_jeux_en_ligne.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aurelienbeton76/Projet_jeux_en_ligne/issues"
+  },
+  "homepage": "https://github.com/Aurelienbeton76/Projet_jeux_en_ligne#readme",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "express": "^4.18.2"
+  }
+}

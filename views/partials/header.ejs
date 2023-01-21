@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>retrogaming</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <% if(needCss) {%>
+    <link rel="stylesheet" href="/css/<%=theGame.cssFile%>">
+  <%}%>
+
+
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="/">RETRO <br> GAMING</a>
+    </h1>
+    <nav>
+      <ul>
+      
+
+        <% for(const game of games) {%>
+         <!-- HTML -->
+         <li>
+          <a href="/game/<%=game.name%>"><%=game.title%></a>
+         </li>
+        <%}%>
+        <li><a href="/search">Recherche</a></li>
+      </ul>
+    </nav>
+  </header>
